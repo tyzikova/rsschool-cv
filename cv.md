@@ -4,7 +4,8 @@
 ## Contacts
 
 E-Mail: [tyzikova@mail.ru](tyzikova@mail.ru)  
-Social: [GitHub](https://github.com/tyzikova)
+Social: [GitHub](https://github.com/tyzikova)  
+Skype: [Skype](https://secure.skype.com/portal/overview)
 
 
 ## About me
