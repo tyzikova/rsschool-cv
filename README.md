@@ -1,3 +1,3 @@
 # rsschool-cv
 
-My CV
+[My CV](https://tyzikova.github.io/rsschool-cv/cv)
