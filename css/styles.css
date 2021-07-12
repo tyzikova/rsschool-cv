@@ -1,0 +1,242 @@
+body{
+	margin: 0 auto;
+	color: rgb(84, 79, 91);
+	font-family: Lora, serif;
+	padding: 7px;
+}
+main{
+	display: flex;
+	flex-wrap: nowrap;
+}
+h1{
+	color: rgba(0,0,0,.75);
+	text-shadow: 0 0 15px;
+	font-family: Lora, serif;
+}
+h2{
+	text-shadow: 1px 1px 0 rgba(121, 73, 118, 0.75);
+}
+h3{
+	border-bottom: 2px solid #96928e7a;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: Lora, serif;
+	margin-bottom: -5px;
+}
+a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #48433D;
+	cursor: pointer;
+}
+a:hover{
+	color: #220554;
+	font-weight: bold;
+}
+i{
+	margin-right: 5px;
+}
+.left{
+	background-color: #d6cbfe;
+	box-shadow: 4px 2px 4px 2px rgba(14, 10, 27, 0.2);
+	border-radius: 3px;
+	height: 97%;
+	min-width: 255px;
+	width: 33%;
+}
+.right{
+	height: 97%;
+	width: 62%;
+	margin-left: 40%;
+}
+.name-hero{
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.name-text ul li{
+	margin-left: -28px;
+	margin-bottom: 5px;
+	color: #48433D;
+	list-style: none;
+}
+.me-img{
+	background-image: url(../image/imgP.jpg);
+	background-size: 95%;
+  	background-position: center center;
+	border-radius: 100%;
+	box-shadow: 0 0 1rem rgba(66, 52, 52, 0.4);
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	transition: 1.2s;
+	cursor: pointer;
+}
+.me-img:hover{
+	transform: scale(1.1);
+}
+.name-hero h1{
+	font-family:Lora, sans-serif;
+	text-align: center;
+	color: #282639;
+	text-shadow: 0 0 17px;
+	letter-spacing: 3px;
+}
+.name-hero h1 em{
+	font-style: normal;
+	font-weight: 700;
+	font-family: Lora, sans-serif;
+}
+.name-hero .name-text{
+	margin: 0 auto;
+	width: 85%;
+}
+.inner{
+	margin: 0 auto;
+	max-width: 975px;
+	padding: 10px;
+}
+.inner h2{
+	font-size: 26px;
+}
+.inner p{
+	color:rgba(0,0,0,.77);
+	font-size: 16px;
+	line-height: 1.5;
+}
+.inner p em{
+	color: rgba(73, 14, 131, 0.64);
+	font-style:normal;
+}
+.inner section{
+	margin: 30px auto;
+	color: inherit;
+}
+.inner section p{
+	text-indent: 10px;
+	text-align: justify;
+}
+.skill-set {
+    padding:0;
+    list-style: none;
+}
+.skill-set li{
+    padding:6px;
+}
+.skill-set li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #69517d;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.skill-set li:hover:before {
+    color: #f0a441;
+    content: "\2714";
+} 
+.codeExample{
+	background-color: #d6cbfe;
+	box-shadow: 4px 2px 4px 2px rgba(14, 10, 27, 0.2);
+	text-align: center;
+	padding-top: 5px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+.codeExample pre{
+	text-align: left;
+	font-size: 14px;
+	overflow: auto;
+}
+.handmade p{
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: end;
+	text-shadow: 1px 1px 0 rgba(230, 209, 231, 0.67);
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 25px;
+	background-color: rgb(84, 79, 91);
+	border-radius: 3px;
+	height: 50px;
+	align-items: center;
+}
+.footerLink{
+	color:#ffffff;
+	font-size: xx-small;
+	font-family: Lora, sans-serif;
+	text-shadow: 0 0 15px;
+}
+.footerLink a{
+	color:#ffffff;
+	font-weight: 700;
+	font-family: Lora, sans-serif;
+	text-shadow: 0 0 15px;
+}
+.footerLink > i{
+	font-size: 14px;
+	color:#ffffff;
+	text-shadow: 0 0 15px;
+}
+.footerLogo img{
+	width: 50px;
+	border-radius: 100%;
+	padding-top: 5px;
+}
+@media screen and (min-width: 770px) {
+.name-text h3{
+	font-size: 14px;
+}
+.name-text h1{
+	font-size: 24px;
+	}
+.left{
+	position: fixed;
+	}
+.name-text li, a{
+	font-size: 13px;
+}
+}
+@media screen and (max-width: 770px) {
+main{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.left{
+	width: 97%;
+	min-height: 700px;
+}
+.right{
+	width: 97%;
+	margin-left: 0;
+}
+h3{
+	margin-bottom: 20px;
+}
+.name-hero{
+	top: 50px;
+}
+.me-img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 50px;
+}
+.name-text li, a{
+	font-size: 16px;
+}
+.handmade {
+	text-align: end;
+	margin-top: 100px;
+}
+.handmade em {
+	font-family: Lora, cursive;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.name-text ul li{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+}
