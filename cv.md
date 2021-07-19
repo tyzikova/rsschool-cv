@@ -5,7 +5,8 @@
 
 E-Mail: [tyzikova@mail.ru](tyzikova@mail.ru)  
 Social: [GitHub](https://github.com/tyzikova)  
-Skype: [Skype](https://secure.skype.com/portal/overview)
+Skype: [Skype](https://secure.skype.com/portal/overview)  
+Phone number: *+375293989218*
 
 
 ## About me
