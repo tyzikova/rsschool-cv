@@ -3,7 +3,6 @@
 
 ## Contacts
   
-Phone: *375293989218*
 E-Mail: [tyzikova@mail.ru](tyzikova@mail.ru)  
 Social: [GitHub](https://github.com/tyzikova)  
 Skype: [Skype](https://secure.skype.com/portal/overview)
