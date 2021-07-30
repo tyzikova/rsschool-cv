@@ -1,0 +1,549 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #030303;
+    width: 100%;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 200px;
+    max-width: 1400px;
+}
+.container_logo, .logo_footer{
+    width: 195px;
+    height: 50px;
+    display: flex;
+    transition: .9s ease-in-out;
+}
+.container_logo:hover, .logo_footer:hover{
+    transform: rotate(360deg);
+}
+.container_logo div:nth-of-type(1), .logo_footer div:nth-of-type(1){
+    background-image: url(../Museum/assets/Vector.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50px;
+    margin-right: 20px;
+}
+.container_logo div:nth-of-type(2), .logo_footer div:nth-of-type(2){
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    font-family: Forum;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container_navigation{
+    width: 720px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.container_navigation nav ul li{
+    display: inline-flex;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin: 0 15px;
+}
+.container_navigation nav ul li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 200ms;
+}
+.container_navigation nav ul li > a:hover{
+    text-shadow: 2px 2px 0 #710707;
+}
+.container_back{
+    height: 750px;
+    display: flex;
+    justify-content: end;
+}
+.container_back div{
+    width: 1215px;
+    
+}
+main{
+    width: 100%;
+}
+.welcome{
+    width: 100%;
+    height: 750px;
+    background: #030303;
+    background-image: url(../Museum/assets/background.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.container_welcome{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+.container_welcome button{
+    width: 360px;
+    height: 75px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background-color: #710707;
+    border-color: #710707 ;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 75px;
+    box-shadow: 5px -5px 0 #f8d593;
+    transition: 0.7s;
+}
+.container_welcome button:hover{
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 0 #030303;
+}
+h1{
+    font-family: Forum;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 200ms;
+    width: 620px;
+}
+h1:hover{
+    text-shadow: 3px 3px 0 #710707;
+}
+.container_welcome p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+.container_visiting{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 75px 0;
+}
+.container_visiting h2, .container_contacts h2, .container_video_flex h2{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+.container_visiting hr, .container_contacts hr{
+    color: #710707;
+    margin-bottom: 50px;
+}
+.container_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container_flex a{
+    text-decoration: none;
+}
+.container_virtyal{
+    width: 440px;
+    height: 420px;
+    cursor: pointer;
+}
+.container_virtyal img{
+    transition: all 1s ease;
+    opacity: .8;
+}
+.container_virtyal img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+    border-radius: 15px;
+}
+.container_virtyal h3{
+    font-size: 32px;
+    font-family: Forum;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container_virtyal h3::after{
+    content: '';
+    display: block;
+    width: 65%;
+    border-bottom: 3px solid #710707;
+    transition: .5s ease;
+}
+.container_virtyal h3:hover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid #710707;
+}
+.container_virtyal p:nth-of-type(1){
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 22px;
+    color: #757171;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.container_virtyal p:nth-of-type(2){
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    color: #757171;
+    margin: 10px 0;
+}
+.container_virtyal hr{
+    width: 80%;
+    position: absolute;
+    width: 350px;
+    left: 20px;
+}
+.container_explore{
+    width: 100%;
+    background-color: #030303;
+    padding: 75px 0;
+}
+.containerExpl{
+    max-width: 1440px;
+    height: 715px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container_explore h2, .container_tickets_about h2{
+    font-size: 80px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Forum;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container_ex1{
+    width: 660px;
+}
+.container_ex1 hr{
+    width: 660px;
+    color: #710707;
+}
+.container_ex2{
+    background-image: url(../Museum/assets/explorePict.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 700px;
+}
+.container_ex1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.container_ex1 p > span{
+    color: rgb(218, 165, 32);
+}
+.container_video{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0;
+}
+.container_video video{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container_video_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+.container_video_flex h2{
+    width: 615px;
+}
+.container_video_flex div{
+    width: 720px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
+.container_tickets{
+    width: 100%;
+    background-color: #030303;
+    padding: 75px 0;
+}
+.container_tickets_about{
+    max-width: 1440px;
+    height: 750px;
+    margin: 0 auto;
+}
+.container_tickets_about hr{
+    margin: 30px 0;
+    color: #710707;
+}
+.container_tickets_flex{
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.tickets_picture{
+    width: 720px;
+    background-image: url(../Museum/assets/ticketsPro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.tickets_pro{
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+}
+h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 0 0 0 45px;
+    letter-spacing: 2px;
+}
+.ticket_pro_left label{
+    margin: 55px 0 55px 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.ticket_pro_left input[type=radio]{
+    display: none;
+}
+.checkmark{
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.ticket_pro_left input:checked ~ .checkmark{
+    background: #710707;
+}
+.number {
+    all: unset;
+    width: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+.ticket_pro_right{
+    display: block;
+    text-align: right;
+}
+.ticket_pro_right p{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.ticket_pro_right p:nth-of-type(2){
+    margin-top: 40px;
+}
+.ticket_pro_right div{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+.ticket_pro_right button:nth-of-type(1), .ticket_pro_right button:nth-of-type(2),
+.ticket_pro_right button:nth-of-type(3), .ticket_pro_right button:nth-of-type(4){
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 200ms;
+}
+.ticket_pro_right button:nth-of-type(5){
+    width: 175px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.ticket_pro_right button:hover{
+    background-color: #710707;
+    color: #FFFFFF;
+    border-color: #710707;
+}
+.container_contacts{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+.container_contacts h2{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+.container_contacts_flex{
+    display: flex;
+    justify-content: space-between;
+    height: 620px;
+}
+.container_contacts_flex div:nth-of-type(2){
+    width: 960px;
+    background-image: url(../Museum/assets/map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.container_contacts_flex p:nth-of-type(1), .container_contacts_flex p:nth-of-type(2){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin: 5px 0;
+}
+.container_contacts_flex p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #000000;
+}
+footer{
+    width: 100%;
+    padding: 75px 0;
+    background-color: #030303;
+    color: white;
+}
+.container_footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer nav ul li{
+    cursor: pointer;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    list-style: none;
+}
+footer nav ul li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 200ms;
+}
+footer nav ul li > a:hover{
+    text-shadow: 2px 2px 0 #710707;
+}
+.social{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    align-self: flex-end;
+}
+.social div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #666666;
+    border-radius: 100%;
+    display: inline-flex;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.social div:hover{
+    border-color: rgb(218, 165, 32);
+    background: #710707;
+}
+.social div:nth-of-type(1){
+    background-image: url(../Museum/assets/youtube.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social div:nth-of-type(2){
+    background-image: url(../Museum/assets/instagran.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social div:nth-of-type(3){
+    background-image: url(../Museum/assets/facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social div:nth-of-type(4){
+    background-image: url(../Museum/assets/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social div:nth-of-type(5){
+    background-image: url(../Museum/assets/pinterest.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
