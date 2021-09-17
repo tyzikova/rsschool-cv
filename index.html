@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://faviconka.ru/ico/1/faviconka.ru_1_140748.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
     integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic/Open+Sans:300,400,500,700/Waiting+for+the+Sunrise/Shadows+Into+Light' rel='stylesheet' type='text/css'>
@@ -10,7 +11,25 @@
     <title>Tatsiana Tuzava</title>
 </head> 
 <body>
-<main>
+	<header>
+	<div class="header-section">
+		<nav class="nav header-nav">
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+				<img src="image/menu.svg" alt="menu">
+			</label>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#level">English level</a></li>
+            </ul>
+        </nav>
+	</div>
+    </header>
+<main id="about">
 <div class="left">
     <div class="name-hero">
     <div class="me-img"></div>
@@ -29,6 +48,7 @@
         </ul>
     </div>
     </div>
+	
 </div>
  <div class="right">
     <div class="inner">
@@ -41,18 +61,19 @@
         No experience in this area. Of the strengths, I am a quick learner, persevering, disciplined and friendly!</p>
       </section>
       <section>
-        <h2>Experience</h2>
+        <h2 id="experience">Experience</h2>
         <p>Settlement Help Center, 2018-2020 | <em> Utilities | Economist</em> |</p>
         <p>Idea Bank, 2012 - 2018 | <em> Specialist </em> |</p>
       </section> 
       <section>
-        <h2>Education</h2>
-        <p>Autumn 2020 - Spring 2021 | <em>IT - Academy | Educational Center for programming and High Tech </em> | WEBSITE DEVELOPMENT WITH HTML, CSS & JAVASCRIPT</p>
+        <h2 id="education">Education</h2>
+		<p>Summer 2021 - Autumn 2021 | <em> THE ROLLING SCOPES SCHOOL </em> | JS/FE PRE-SCHOOL (JAVASCRIPT)</p>
+        <p>Autumn 2020 - Spring 2021 | <em> IT - Academy | Educational Center for programming and High Tech </em> | WEBSITE DEVELOPMENT WITH HTML, CSS & JAVASCRIPT</p>
         <p>Autumn 2006 - Spring 2012 | <em>Belarusian State University of Transport </em> | Economist - Accountant</p>
         <p>Autumn 2000 - Summr 2003 | <em>Gomel State Polytechnic College. | Technologist & Meneger </em> | </p>
       </section>
       <section>
-        <h2>Basic development skills of</h2>
+        <h2 id="skills">Basic development skills of</h2>
           <ul class="skill-set">
             <li>JavaScript</li>
             <li>HTML5</li>  
@@ -61,29 +82,23 @@
       </ul>      
       </section>
       <section>
-      <h2>Code example</h2>
-      <div class="codeExample">JavaScript code to build a tower
+      <h2 id="code">Code example</h2>
+      <div class="codeExample">JavaScript code that will calculate the factorial using recursion.
         <pre>
-        <code>
-        function towerBuilder(nFloors) {  
-        let arr = [];  
-        let swap = 0;  
-          for (let i = nFloors; i > 0; i--){  
-            arr.push('  '.repeat(swap)  
-            + '*'.repeat(i)   
-            + '*'.repeat(i - 1)   
-            + '  '.repeat(swap));  
-            swap++;  
-                }  
-          return arr.reverse();  
-        };
+     <code>
+ function findFactorial(n){
+  if (n === 1){
+   return 1;
+ }
+   return n * findFactorial(n-1);
+ };
         </code>
         </pre>
        </div>
       </section>
       <section>
         <h2>Personal Interests</h2>
-          <ul class="skill-set">
+          <ul>
             <li>Self-education</li>
             <li>language learning</li>
             <li>Traveling</li>
@@ -98,15 +113,21 @@
         it is level A1, closer to level A2.<br>
         I take private lessons from a mentor.</p>
       </section>
-      <div class="handmade">
+	  <section>
+	  <h2>Video</h2>
+	  <div class="container-video">
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6H2oUVb-5PY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	  </section>
+      <div id="level" class="handmade">
         <p>"A journey of a thousand miles begins with a single step."<em>  Lao-Tzu </em></p>
       </div>
     </div>
-    <footer>
-      <div class="footerLink">&copy; All rights reserved<br> <i class="fab fa-github"></i><a href="https://github.com/tyzikova" target="blank">Tatsiana Tuzava 2021</a></div>
-      <div class="footerLogo"><a href="https://rs.school/" target="blank"><img src="image/unnamed.png" alt="rsscool"></a></div>
-    </footer>
   </div>
   </main>
+  <footer>
+      <div class="footerLink">&copy; All rights reserved<br> <i class="fab fa-github"></i><a href="https://github.com/tyzikova" target="blank">Tatsiana Tuzava 2021</a></div>
+      <div class="footerLogo"><a href="https://rs.school/js" target="blank"><img src="image/rs_school_js.svg" alt="rsscool"></a></div>
+    </footer>
 </body>
 </html>
