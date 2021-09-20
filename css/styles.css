@@ -107,21 +107,23 @@ i{
 	border-radius: 3px;
 	top: 70px;
 	min-width: 255px;
-	width: 34%;
+	width: 38%;
 }
 .right{
 	height: 97%;
-	width: 64%;
-	margin-left: 35%;
+	width: 60%;
+	margin-left: 40%;
 }
 .name-hero{
 	display: flex;
 	flex-direction: column;
 	padding-top: 10px;
 }
+.name-text ul{
+	padding-left: 0;
+}
 .name-text ul li{
-	margin-left: -28px;
-	margin-bottom: 15px;
+	margin: 0 0 10px 0;
 	color: rgb(84, 79, 91);
 	list-style: none;
 }
@@ -135,8 +137,8 @@ i{
 	background-repeat: no-repeat;
 	border-radius: 100%;
 	box-shadow: 0 0 1rem rgba(66, 52, 52, 0.4);
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	margin: 0 auto;
 	transition: 1.2s;
 	cursor: pointer;
@@ -340,6 +342,16 @@ main{
 	width: 100%;
 	min-height: 655px;
 	margin: 10px;
+}
+.me-img{
+	width: 200px;
+	height: 200px;
+}
+.name-hero h1{
+	font-size: 36px;
+}
+.name-hero{
+	padding-top: 30px;
 }
 .right{
 	width: 100%;
