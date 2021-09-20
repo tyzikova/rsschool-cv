@@ -74,11 +74,11 @@ h1{
 	text-shadow: 0 0 15px;
 	font-family: Lora, serif;
 	margin: 0;
-	font-size: 40px;
+	font-size: 30px;
 }
 h2{
 	text-shadow: 1px 1px 0 rgba(121, 73, 118, 0.75);
-	font-size: 38px;
+	font-size: 28px;
 }
 h3{
 	border-bottom: 2px solid #96928e7a;
@@ -86,7 +86,6 @@ h3{
 	text-transform: uppercase;
 	font-family: Lora, serif;
 	margin-bottom: -5px;
-	font-size: 30px;
 }
 a{
 	font-size: 14px;
@@ -106,8 +105,9 @@ i{
 	background-color: #f0a441bf;
 	box-shadow: 3px 1px 3px 1px rgba(14, 10, 27, 0.2);
 	border-radius: 3px;
-	top: 76px;
+	top: 70px;
 	min-width: 255px;
+	height: 85%;
 	width: 34%;
 }
 .right{
@@ -125,7 +125,6 @@ i{
 	margin-bottom: 15px;
 	color: rgb(84, 79, 91);
 	list-style: none;
-	font-size: 20px;
 }
 .me-img{
 	background-image: url(../image/imgP.jpg);
@@ -134,8 +133,8 @@ i{
 	background-repeat: no-repeat;
 	border-radius: 100%;
 	box-shadow: 0 0 1rem rgba(66, 52, 52, 0.4);
-	width: 250px;
-	height: 250px;
+	width: 150px;
+	height: 150px;
 	margin: 0 auto;
 	transition: 1.2s;
 	cursor: pointer;
@@ -168,7 +167,7 @@ i{
 	color:rgba(0,0,0,.8);
 	font-size: 16px;
 	line-height: 1.5;
-	font-size: 24px;
+	font-size: 20px;
 }
 .inner p em{
 	color: #710707;
