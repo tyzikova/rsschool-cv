@@ -74,7 +74,7 @@ h1{
 	text-shadow: 0 0 15px;
 	font-family: Lora, serif;
 	margin: 0;
-	font-size: 30px;
+	font-size: 26px;
 }
 h2{
 	text-shadow: 1px 1px 0 rgba(121, 73, 118, 0.75);
@@ -92,7 +92,7 @@ a{
 	text-decoration: none;
 	color: rgb(84, 79, 91);
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 18px;
 }
 a:hover{
 	color: currentColor;
@@ -117,13 +117,16 @@ i{
 .name-hero{
 	display: flex;
 	flex-direction: column;
-	margin: 5% auto;
+	padding-top: 10px;
 }
 .name-text ul li{
 	margin-left: -28px;
 	margin-bottom: 15px;
 	color: rgb(84, 79, 91);
 	list-style: none;
+}
+.name-text ul li:last-child{
+	margin-bottom: 0;
 }
 .me-img{
 	background-image: url(../image/imgP.jpg);
@@ -241,7 +244,6 @@ footer{
 	justify-content: space-between;
 	padding: 5px 25px;
 	background-color: rgb(84, 79, 91);
-	border-radius: 3px;
 	height: 40px;
 	align-items: center;
 }
